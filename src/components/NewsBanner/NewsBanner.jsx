@@ -1,5 +1,5 @@
 import { formatTimeAgo } from '../../utils/formatTimeAgo';
-import withSkeleton from '../../utils/hoks/withSkeleton';
+// import withSkeleton from '../../utils/hoks/withSkeleton';
 import Image from '../Image/image';
 import styles from './styles.module.css';
 
@@ -15,6 +15,6 @@ const NewsBanner = ({ item }) => {
   );
 };
 
-const NewsBannerWithSkeleton = withSkeleton(NewsBanner, 'banner', 1);
+// const NewsBannerWithSkeleton = withSkeleton(NewsBanner, 'banner', 1);
 
-export default NewsBannerWithSkeleton;
+export default NewsBanner;
