@@ -1,16 +1,13 @@
-// import { useState } from 'react';
-import { getNews, getCategories } from '../../API/apiNews';
-import NewsBanner from '../../components/NewsBanner/NewsBanner';
+import { getNews } from '../../API/apiNews';
+
 import styles from './styles.module.css';
-import NewsList from '../../components/NewsList/NewList';
-// import Skeleton from '../../components/skeleton/skeleton';
-import Pagination from '../../components/pagination/pagination';
-import Categories from '../../components/Categories/categories';
-import Search from '../../components/search/search';
+
 import { useDebounce } from '../../utils/hooks/useDebounce';
-import { PAGE_SIZE, TOTAL_PAGES } from '../../constants/constants';
+import { PAGE_SIZE } from '../../constants/constants';
 import { useFetch } from '../../utils/hooks/useFetch';
 import { useFilters } from '../../utils/hooks/useFilters';
+import LatestNews from '../../components/LatestNews/LatestNews';
+import NewsByFilters from '../../components/NewsByFilters/NewsByFilters';
 const Main = () => {
   //   const [isLoading, setIsLoading] = useState(true);
   //   const [news, setNews] = useState([]);
@@ -34,7 +31,7 @@ const Main = () => {
     keywords: debouncedKeywords,
   });
 
-  const { data: dataCategories } = useFetch(getCategories, {});
+  //   const { data: dataCategories } = useFetch(getCategories, {});
 
   //   const fetchNews = async (currentPage) => {
   //     try {
@@ -68,61 +65,29 @@ const Main = () => {
   //     fetchNews(currentPage);
   //   }, [currentPage, selectedCategory, debouncedKeywords]);
 
-  const handleNextPage = () => {
-    if (filters.page_number < TOTAL_PAGES) {
-      changeFilter('page_number', filters.page_number + 1);
-    }
-  };
-  const handlePrevisiousPage = () => {
-    if (filters.page_number > 0) {
-      changeFilter('page_number', filters.page_number - 1);
-    }
-  };
+  //   const handleNextPage = () => {
+  //     if (filters.page_number < TOTAL_PAGES) {
+  //       changeFilter('page_number', filters.page_number + 1);
+  //     }
+  //   };
+  //   const handlePrevisiousPage = () => {
+  //     if (filters.page_number > 0) {
+  //       changeFilter('page_number', filters.page_number - 1);
+  //     }
+  //   };
 
-  const handlePageClick = (pageNumber) => {
-    changeFilter('page_number', pageNumber);
-  };
+  //   const handlePageClick = (pageNumber) => {
+  //     changeFilter('page_number', pageNumber);
+  //   };
 
   return (
     <main className={styles.main}>
-      <Search
-        keywords={filters.keywords}
-        setKeywords={(keywords) => {
-          changeFilter('keywords', keywords);
-        }}
-      />
-      {dataCategories && dataCategories.categories ? (
-        <Categories
-          categories={dataCategories.categories}
-          setSelectedCategory={(category) => {
-            changeFilter('category', category);
-          }}
-          selectedCategory={filters.category}
-        />
-      ) : null}
-
-      <NewsBanner isLoading={isLoading} item={data && data.news && data.news[0]} />
-      {/* {news.length > 0 && !isLoading ? (
-        <NewsBanner item={news[0]} />
-      ) : (
-        <Skeleton type={'banner'} count={1} />
-      )} */}
-      <Pagination
-        currentPage={filters.page_number}
-        handlePageClick={handlePageClick}
-        handleNextPage={handleNextPage}
-        handlePrevisiousPage={handlePrevisiousPage}
-        totalPages={TOTAL_PAGES}
-      />
-
-      {/* {!isLoading ? <NewsList news={news} /> : <Skeleton type={'item'} count={10} />} */}
-      <NewsList isLoading={isLoading} news={data && data.news} />
-      <Pagination
-        currentPage={filters.page_number}
-        handlePageClick={handlePageClick}
-        handleNextPage={handleNextPage}
-        handlePrevisiousPage={handlePrevisiousPage}
-        totalPages={TOTAL_PAGES}
+      <LatestNews isLoading={isLoading} banners={data && data.news} />
+      <NewsByFilters
+        isLoading={isLoading}
+        news={data?.news}
+        filters={filters}
+        changeFilter={changeFilter}
       />
     </main>
   );
