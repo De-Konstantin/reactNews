@@ -1,11 +1,5 @@
-import { getNews } from '../../API/apiNews';
-
 import styles from './styles.module.css';
 
-import { useDebounce } from '../../utils/hooks/useDebounce';
-import { PAGE_SIZE } from '../../constants/constants';
-import { useFetch } from '../../utils/hooks/useFetch';
-import { useFilters } from '../../utils/hooks/useFilters';
 import LatestNews from '../../components/LatestNews/LatestNews';
 import NewsByFilters from '../../components/NewsByFilters/NewsByFilters';
 const Main = () => {
@@ -18,18 +12,6 @@ const Main = () => {
 
   //   const totalPages = 10;
   //   const pageSize = 10;
-  const { filters, changeFilter } = useFilters({
-    page_number: 1,
-    page_size: PAGE_SIZE,
-    category: null,
-    keywords: ' ',
-  });
-  const debouncedKeywords = useDebounce(filters.keywords, 1000);
-
-  const { data, isLoading } = useFetch(getNews, {
-    ...filters,
-    keywords: debouncedKeywords,
-  });
 
   //   const { data: dataCategories } = useFetch(getCategories, {});
 
@@ -82,12 +64,12 @@ const Main = () => {
 
   return (
     <main className={styles.main}>
-      <LatestNews isLoading={isLoading} banners={data && data.news} />
+      <LatestNews />
       <NewsByFilters
-        isLoading={isLoading}
-        news={data?.news}
-        filters={filters}
-        changeFilter={changeFilter}
+      //   isLoading={isLoading}
+      //   news={data?.news}
+      //   filters={filters}
+      //   changeFilter={changeFilter}
       />
     </main>
   );
