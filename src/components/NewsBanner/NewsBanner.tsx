@@ -1,9 +1,14 @@
+import { INews } from '../../interfaces';
 import { formatTimeAgo } from '../../utils/formatTimeAgo';
 // import withSkeleton from '../../utils/hoks/withSkeleton';
 import Image from '../Image/image';
 import styles from './styles.module.css';
 
-const NewsBanner = ({ item }) => {
+interface Props{
+	item:INews
+}
+
+const NewsBanner = ({ item }:Props) => {
   return (
     <div className={styles.banner}>
       <Image image={item.image} />
