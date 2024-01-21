@@ -1,10 +1,17 @@
 import styles from './styles.module.css';
 import NewsItem from '../NewsItem/NewItem';
 import withSkeleton from '../../utils/hoks/withSkeleton';
-const NewsList = ({ news }) => {
+import { INews } from '../../interfaces';
+
+
+interface Props {
+	news?:INews[]|null
+}
+
+const NewsList = ({ news }:Props) => {
   return (
     <ul className={styles.list}>
-      {news.map((item) => {
+      {news?.map((item) => {
         return <NewsItem key={item.id} item={item} />;
       })}
     </ul>

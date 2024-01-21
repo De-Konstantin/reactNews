@@ -3,9 +3,9 @@ import Main from './pages/main/main';
 
 function App() {
   return (
-    <>
+    <> <Header />
       <div className="container">
-        <Header />
+       
 
         <Main />
       </div>
