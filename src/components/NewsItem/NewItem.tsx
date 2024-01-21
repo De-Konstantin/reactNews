@@ -1,6 +1,14 @@
 import styles from './styles.module.css';
 import { formatTimeAgo } from '../../utils/formatTimeAgo';
-const NewsItem = ({ item }) => {
+import { INews } from '../../interfaces';
+
+
+interface Props {
+	item:INews
+}
+
+
+const NewsItem = ({ item }:Props) => {
   return (
     <li className={styles.item}>
       <div className={styles.wrapper} style={{ backgroundImage: `url(${item.image})` }}></div>
