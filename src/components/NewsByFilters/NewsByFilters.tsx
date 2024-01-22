@@ -12,6 +12,7 @@ import PaginationWrapper from '../PaginationWrapper/PaginationWrapper';
 
 import styles from './styles.module.css';
 
+
 const NewsByFilters = () => {
   const { filters, changeFilter } = useFilters({
     page_number: 1,
@@ -65,9 +66,10 @@ const NewsByFilters = () => {
         }}
       /> */}
 
-      <NewsFilters filters={filters} changeFilter={changeFilter} />
+      <NewsFilters  filters={filters} changeFilter={changeFilter} />
 
       <PaginationWrapper
+		
         top
         bottom
         currentPage={filters.page_number}

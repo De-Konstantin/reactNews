@@ -2,6 +2,8 @@ import styles from './styles.module.css';
 
 import LatestNews from '../../components/LatestNews/LatestNews';
 import NewsByFilters from '../../components/NewsByFilters/NewsByFilters';
+
+
 const Main = () => {
   //   const [isLoading, setIsLoading] = useState(true);
   //   const [news, setNews] = useState([]);
@@ -62,10 +64,11 @@ const Main = () => {
   //     changeFilter('page_number', pageNumber);
   //   };
 
+
   return (
     <main className={styles.main}>
       <LatestNews />
-      <NewsByFilters
+      <NewsByFilters 
       //   isLoading={isLoading}
       //   news={data?.news}
       //   filters={filters}
