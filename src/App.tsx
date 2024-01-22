@@ -1,16 +1,28 @@
+
 import Header from './components/header/header';
+import { useTheme } from './context/ThemeContext';
+
 import Main from './pages/main/main';
 
 function App() {
-  return (
-    <> <Header />
-      <div className="container">
-       
+const{isDark}= useTheme()
+	
+	return (
 
-        <Main />
-      </div>
-    </>
-  );
+		
+			<div className={`app ${isDark ? 'dark' : 'light'}`}>
+
+				<div className="container">
+
+					<Header/>
+					<Main  />
+				</div>
+			</div>
+			
+	
+);
+
+ 
 }
 
 export default App;

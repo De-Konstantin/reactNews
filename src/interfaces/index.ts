@@ -19,6 +19,7 @@ export interface IFilters {
 }
 
 export interface IPaginationProps {
+	
 	totalPages: number;
   handlePrevisiousPage:()=>void;
   handleNextPage:()=>void;
