@@ -4,6 +4,7 @@ import { CategoriesApiResponse, NewsApiResponse, ParamsType } from '../../interf
 const BASE_URL = import.meta.env.VITE_NEWS_BASE_API_URL;
 const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
 console.log('it is Key', API_KEY);
+console.log('Key');
 export const newsApi = createApi({
   reducerPath: 'newsApi',
   baseQuery: fetchBaseQuery({ baseUrl: BASE_URL }),
