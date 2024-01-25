@@ -8,6 +8,7 @@ console.log('Key');
 export const newsApi = createApi({
   reducerPath: 'newsApi',
   baseQuery: fetchBaseQuery({ baseUrl: BASE_URL }),
+
   endpoints: (builder) => ({
     getNews: builder.query<NewsApiResponse, ParamsType>({
       keepUnusedDataFor: 0, //отлючаем кеширование
