@@ -1,12 +1,12 @@
-import { useTheme } from '../../context/ThemeContext';
-import { IFilters } from '../../interfaces';
-import { useAppDispatch } from '../../store';
-import { useGetCategoryNewsQuery } from '../../store/services/newsApi';
-import { setFilters } from '../../store/slices/newsSlice';
-import Categories from '../Categories/categories';
-import Search from '../search/search';
-import Slider from '../Slider/Slider';
+import { IFilters } from '../../../../interfaces';
+import { useAppDispatch } from '../../../../store';
+import { useGetCategoryNewsQuery } from '../../../../store/services/newsApi';
+import { setFilters } from '../../../../store/slices/newsSlice';
+import Categories from '../../../../components/Categories/categories';
+import Search from '../../../../components/search/search';
+import Slider from '../../../../components/Slider/Slider';
 import styles from './styles.module.css';
+import { useTheme } from '@/app/providers/ThemeProvider';
 
 interface Props {
   filters: IFilters;

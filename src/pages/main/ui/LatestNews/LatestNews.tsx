@@ -1,7 +1,6 @@
-import { useGetLatestNewsQuery } from '../../store/services/newsApi';
-import BannersListWithSkeleton from '../BannersList/BannersList';
+import BannersListWithSkeleton from '@/components/BannersList/BannersList';
+import { useGetLatestNewsQuery } from '@/store/services/newsApi';
 import styles from './styles.module.css';
-
 const LatestNews = () => {
   const { data, isLoading } = useGetLatestNewsQuery(null);
 
