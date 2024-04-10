@@ -1,8 +1,8 @@
 import styles from './styles.module.css';
 
-import LatestNews from '../../components/LatestNews/LatestNews';
-import NewsByFilters from '../../components/NewsByFilters/NewsByFilters';
-
+import LatestNews from './LatestNews/LatestNews';
+import NewsByFilters from '@/pages/main/ui/NewsByFilters/NewsByFilters';
+// import NewsByFilters from '../../components/NewsByFilters/NewsByFilters';
 
 const Main = () => {
   //   const [isLoading, setIsLoading] = useState(true);
@@ -64,11 +64,10 @@ const Main = () => {
   //     changeFilter('page_number', pageNumber);
   //   };
 
-
   return (
     <main className={styles.main}>
       <LatestNews />
-      <NewsByFilters 
+      <NewsByFilters
       //   isLoading={isLoading}
       //   news={data?.news}
       //   filters={filters}

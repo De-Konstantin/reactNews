@@ -1,11 +1,11 @@
-import { TOTAL_PAGES } from '../../constants/constants';
-import { useAppDispatch, useAppSelector } from '../../store';
-import { useGetNewsQuery } from '../../store/services/newsApi';
-import { setFilters } from '../../store/slices/newsSlice';
-import { useDebounce } from '../../utils/hooks/useDebounce';
+import { TOTAL_PAGES } from '../../../../constants/constants';
+import { useAppDispatch, useAppSelector } from '../../../../store';
+import { useGetNewsQuery } from '../../../../store/services/newsApi';
+import { setFilters } from '../../../../store/slices/newsSlice';
+import { useDebounce } from '../../../../utils/hooks/useDebounce';
 import NewsFilters from '../NewsFilters/NewsFilters';
-import NewsList from '../NewsList/NewList';
-import PaginationWrapper from '../PaginationWrapper/PaginationWrapper';
+import NewsList from '../../../../components/NewsList/NewList';
+import PaginationWrapper from '../../../../components/PaginationWrapper/PaginationWrapper';
 import styles from './styles.module.css';
 
 const NewsByFilters = () => {
