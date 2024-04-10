@@ -1,7 +1,7 @@
 import { IFilters } from '../../../../interfaces';
 import { useAppDispatch } from '../../../../store';
-import { useGetCategoryNewsQuery } from '../../../../store/services/newsApi';
-import { setFilters } from '../../../../store/slices/newsSlice';
+import { useGetCategoryNewsQuery } from '../../../../entities/news/api/newsApi';
+import { setFilters } from '../../../../entities/news/modal/newsSlice';
 import Categories from '../../../../components/Categories/categories';
 import Search from '../../../../components/search/search';
 import Slider from '../../../../components/Slider/Slider';

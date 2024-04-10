@@ -1,10 +1,10 @@
 import { TOTAL_PAGES } from '../../../../constants/constants';
 import { useAppDispatch, useAppSelector } from '../../../../store';
-import { useGetNewsQuery } from '../../../../store/services/newsApi';
-import { setFilters } from '../../../../store/slices/newsSlice';
+import { useGetNewsQuery } from '../../../../entities/news/api/newsApi';
+import { setFilters } from '../../../../entities/news/modal/newsSlice';
 import { useDebounce } from '../../../../utils/hooks/useDebounce';
 import NewsFilters from '../NewsFilters/NewsFilters';
-import NewsList from '../../../../components/NewsList/NewList';
+import NewsList from '../../../../widgets/news/ui/NewsList/NewList';
 import PaginationWrapper from '../../../../components/PaginationWrapper/PaginationWrapper';
 import styles from './styles.module.css';
 
