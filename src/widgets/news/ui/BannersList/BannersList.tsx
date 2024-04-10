@@ -1,15 +1,14 @@
-import { INews } from '../../interfaces';
-import withSkeleton from '../../utils/hoks/withSkeleton';
-import NewsBanner from '../NewsBanner/NewsBanner';
+import { INews } from '../../../../../interfaces';
+import withSkeleton from '../../../../../utils/hoks/withSkeleton';
+import NewsBanner from '../../../../NewsBanner/NewsBanner';
 
 import styles from './styles.module.css';
 
-
 interface Props {
-	banners?: INews[]|null;
+  banners?: INews[] | null;
 }
 
-const BannersList = ({ banners }:Props) => {
+const BannersList = ({ banners }: Props) => {
   return (
     <ul className={styles.banners}>
       {banners?.map((banner) => {

@@ -1,14 +1,14 @@
-import { INews } from '../../interfaces';
-import { formatTimeAgo } from '../../utils/formatTimeAgo';
+import { INews } from '../../../../interfaces';
+import { formatTimeAgo } from '../../../../utils/formatTimeAgo';
 // import withSkeleton from '../../utils/hoks/withSkeleton';
-import Image from '../Image/image';
+import Image from '../../../../components/Image/image';
 import styles from './styles.module.css';
 
-interface Props{
-	item:INews
+interface Props {
+  item: INews;
 }
 
-const NewsBanner = ({ item }:Props) => {
+const NewsBanner = ({ item }: Props) => {
   return (
     <div className={styles.banner}>
       <Image image={item.image} />

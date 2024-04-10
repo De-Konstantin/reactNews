@@ -1,4 +1,4 @@
-import { newsApi } from '@/store/services/newsApi';
+import { newsApi } from '@/entities/news/api/newsApi';
 import { configureStore } from '@reduxjs/toolkit';
 import { useDispatch, TypedUseSelectorHook, useSelector } from 'react-redux';
 import { rootReducer } from './appReducer';

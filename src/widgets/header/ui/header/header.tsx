@@ -1,7 +1,6 @@
-import { themeIcons } from '../../assets';
-import { useTheme } from '../../app/providers/ThemeContext';
-
-import { formatDate } from '../../utils/formatDate';
+import { useTheme } from '@/app/providers/ThemeProvider';
+import { themeIcons } from '@/assets';
+import { formatDate } from '@/utils/formatDate';
 import styles from './styles.module.css';
 
 const Header = () => {
