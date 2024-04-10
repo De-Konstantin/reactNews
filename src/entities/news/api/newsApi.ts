@@ -1,5 +1,6 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import { CategoriesApiResponse, NewsApiResponse, ParamsType } from '../../../interfaces';
+import { ParamsType } from '@/interfaces';
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query';
+import { NewsApiResponse } from '../modal/types';
 
 const BASE_URL = import.meta.env.VITE_NEWS_BASE_API_URL;
 const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
