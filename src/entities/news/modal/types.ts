@@ -1,5 +1,5 @@
 import { CategoriesType } from '@/entities/category';
-import { CategoryType } from '@/interfaces';
+import { CategoryType } from '@/shared/interfaces';
 
 export interface INews {
   author: string;

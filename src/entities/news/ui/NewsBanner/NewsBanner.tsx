@@ -1,8 +1,8 @@
-import { INews } from '../../../../interfaces';
-import { formatTimeAgo } from '../../../../utils/formatTimeAgo';
+import { formatTimeAgo } from '../../../../shared/utils/formatTimeAgo';
 // import withSkeleton from '../../utils/hoks/withSkeleton';
-import Image from '../../../../components/Image/image';
+import Image from '../../../../shared/ui/Image/image';
 import styles from './styles.module.css';
+import { INews } from '../../modal/types';
 
 interface Props {
   item: INews;

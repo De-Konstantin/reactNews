@@ -5,13 +5,6 @@ export interface IFilters {
   keywords: string;
 }
 
-export interface IPaginationProps {
-  totalPages: number;
-  handlePrevisiousPage: () => void;
-  handleNextPage: () => void;
-  handlePageClick: (page: number) => void;
-  currentPage: number;
-}
 export type ParamsType = Partial<IFilters>;
 export type SkeletonType = 'banner' | 'item';
 export type DirectionType = 'row' | 'column';

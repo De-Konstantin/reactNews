@@ -1,4 +1,4 @@
-import { useTheme } from '../../app/providers/ThemeContext';
+import { useTheme } from '@/app/providers/ThemeProvider';
 import styles from './styles.module.css';
 
 interface Props {

@@ -1,4 +1,4 @@
-import { CategoryType } from '@/interfaces';
+import { CategoryType } from '@/shared/interfaces';
 
 export interface CategoriesApiResponse {
   categories: CategoryType[];
