@@ -1,8 +1,9 @@
-import { useTheme } from '../../app/providers/ThemeContext';
-import { IPaginationProps } from '../../interfaces';
-import styles from './styles.module.css';
+import { useTheme } from '@/app/providers/ThemeProvider';
 
-const Pagination = ({
+import styles from './styles.module.css';
+import { IPaginationProps } from '../../model/types';
+
+const PaginationButton = ({
   totalPages,
   handlePrevisiousPage,
   handleNextPage,
@@ -38,4 +39,4 @@ const Pagination = ({
   );
 };
 
-export default Pagination;
+export default PaginationButton;

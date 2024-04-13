@@ -1,6 +1,6 @@
-import BannersListWithSkeleton from '@/components/widgets/news/ui/BannersList/BannersList';
 import { useGetLatestNewsQuery } from '@/entities/news/api/newsApi';
 import styles from './styles.module.css';
+import BannersListWithSkeleton from '@/widgets/news/ui/BannersList/BannersList';
 const LatestNews = () => {
   const { data, isLoading } = useGetLatestNewsQuery(null);
 
