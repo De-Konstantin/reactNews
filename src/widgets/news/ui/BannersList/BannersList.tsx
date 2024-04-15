@@ -1,7 +1,5 @@
-import { INews } from '../../../../../interfaces';
-import withSkeleton from '../../../../../utils/hoks/withSkeleton';
-import NewsBanner from '../../../../NewsBanner/NewsBanner';
-
+import { INews, NewsBanner } from '@/entities/news';
+import withSkeleton from '@/shared/hoks/withSkeleton';
 import styles from './styles.module.css';
 
 interface Props {

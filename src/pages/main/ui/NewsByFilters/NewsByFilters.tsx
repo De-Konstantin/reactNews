@@ -6,6 +6,7 @@ import { NewsList } from '@/widgets/news/ui';
 import NewsFilters from '../NewsFilters/NewsFilters';
 import styles from './styles.module.css';
 import { useAppDispatch, useAppSelector } from '@/app/appStore';
+import { Pagination } from '@/features/pagination';
 
 const NewsByFilters = () => {
   const dispatch = useAppDispatch();
@@ -37,7 +38,7 @@ const NewsByFilters = () => {
     <section className={styles.section}>
       <NewsFilters filters={filters} />
 
-      <PaginationWrapper
+      <Pagination
         top
         bottom
         currentPage={filters.page_number}
@@ -46,7 +47,7 @@ const NewsByFilters = () => {
         handlePrevisiousPage={handlePrevisiousPage}
         totalPages={TOTAL_PAGES}>
         <NewsList isLoading={isLoading} news={data && data.news} />
-      </PaginationWrapper>
+      </Pagination>
     </section>
   );
 };
