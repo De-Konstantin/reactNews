@@ -9,7 +9,6 @@ const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
 export const newsApi = createApi({
   reducerPath: 'newsApi',
   baseQuery: fetchBaseQuery({ baseUrl: BASE_URL }),
-
   endpoints: (builder) => ({
     getNews: builder.query<NewsApiResponse, ParamsType>({
       keepUnusedDataFor: 0, //отлючаем кеширование
@@ -26,6 +25,12 @@ export const newsApi = createApi({
           },
         };
       },
+      async onQueryStarted(_arg, { dispatch, queryFulfilled }) {
+        const result = await queryFulfilled;
+        const data = result.data;
+
+        dispatch(setNews(data.news));
+      },
     }),
     getLatestNews: builder.query<NewsApiResponse, null>({
       query: () => {
@@ -36,11 +41,8 @@ export const newsApi = createApi({
           },
         };
       },
-      // async onQueryStarted(_arg, {dispatch, queryFulfilled}){
-
-      // }
     }),
   }),
 });
 
-export const { useGetNewsQuery, useGetLatestNewsQuery } = newsApi;
+export const { useGetNewsQuery, useGetLatestNewsQuery }: any = newsApi;
