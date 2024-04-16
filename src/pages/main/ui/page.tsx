@@ -4,7 +4,7 @@ import LatestNews from './LatestNews/LatestNews';
 import NewsByFilters from '@/pages/main/ui/NewsByFilters/NewsByFilters';
 // import NewsByFilters from '../../components/NewsByFilters/NewsByFilters';
 
-const Main = () => {
+const MainPage = () => {
   //   const [isLoading, setIsLoading] = useState(true);
   //   const [news, setNews] = useState([]);
   //   const [categories, setCategories] = useState([]);
@@ -67,14 +67,9 @@ const Main = () => {
   return (
     <main className={styles.main}>
       <LatestNews />
-      <NewsByFilters
-      //   isLoading={isLoading}
-      //   news={data?.news}
-      //   filters={filters}
-      //   changeFilter={changeFilter}
-      />
+      <NewsByFilters />
     </main>
   );
 };
 
-export default Main;
+export default MainPage;

@@ -1,4 +1,4 @@
-import Main from '@/pages/main/ui/page';
+import { MainPage } from '@/pages/main';
 import { useTheme } from '../providers/ThemeProvider';
 import { Header } from '@/widgets/header/ui';
 
@@ -8,7 +8,7 @@ function BaseLayout() {
     <div className={`app ${isDark ? 'dark' : 'light'}`}>
       <div className="container">
         <Header />
-        <Main />
+        <MainPage />
       </div>
     </div>
   );

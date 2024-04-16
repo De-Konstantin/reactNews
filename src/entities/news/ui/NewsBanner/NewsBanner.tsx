@@ -1,9 +1,7 @@
-import { formatTimeAgo } from '../../../../shared/utils/formatTimeAgo';
-// import withSkeleton from '../../utils/hoks/withSkeleton';
-import Image from '../../../../shared/ui/Image/image';
+import { formatTimeAgo } from '@/shared/utils/formatTimeAgo';
+import { INews } from '../..';
 import styles from './styles.module.css';
-import { INews } from '../../modal/types';
-
+import Image from '@/shared/ui/Image/image';
 interface Props {
   item: INews;
 }
