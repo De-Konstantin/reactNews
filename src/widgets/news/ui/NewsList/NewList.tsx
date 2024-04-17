@@ -1,7 +1,7 @@
+import { INews } from '@/entities/news';
+import NewsItem from '@/entities/news/ui/NewsItem/NewItem';
+import withSkeleton from '@/shared/hoks/withSkeleton';
 import styles from './styles.module.css';
-import NewsItem from '../../../../entities/news/ui/NewsItem/NewItem';
-import withSkeleton from '../../../../shared/hoks/withSkeleton';
-import { INews } from '../../../../shared/interfaces';
 
 interface Props {
   news?: INews[] | null;
