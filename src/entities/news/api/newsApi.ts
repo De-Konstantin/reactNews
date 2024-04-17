@@ -1,5 +1,5 @@
 import { ParamsType } from '@/shared/interfaces';
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query';
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { NewsApiResponse } from '..';
 import { setNews } from '../modal/newsSlice';
 
