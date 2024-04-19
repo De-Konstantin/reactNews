@@ -1,7 +1,7 @@
 import { NewsApiResponse, INews } from './modal/types';
-import NewsBanner from './ui/NewsBanner/NewsBanner';
 import { useGetNewsQuery, useGetLatestNewsQuery } from './api/newsApi';
+import NewsCard from './ui/NewsCard/NewsCard';
 
 export type { NewsApiResponse, INews };
-export { NewsBanner };
+export { NewsCard };
 export { useGetNewsQuery, useGetLatestNewsQuery };
