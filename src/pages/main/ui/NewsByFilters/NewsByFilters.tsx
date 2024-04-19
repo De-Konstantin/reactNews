@@ -2,7 +2,7 @@ import { useGetNewsQuery } from '@/entities/news/api/newsApi';
 import { setFilters } from '@/entities/news/modal/newsSlice';
 import { TOTAL_PAGES } from '@/shared/constants/constants';
 import { useDebounce } from '@/shared/hooks/useDebounce';
-import { NewsList } from '@/widgets/news/ui';
+import { NewsList } from '@/widgets/news';
 import NewsFilters from '../NewsFilters/NewsFilters';
 import styles from './styles.module.css';
 import { useAppDispatch, useAppSelector } from '@/app/appStore';
@@ -46,7 +46,7 @@ const NewsByFilters = () => {
         handleNextPage={handleNextPage}
         handlePrevisiousPage={handlePrevisiousPage}
         totalPages={TOTAL_PAGES}>
-        <NewsList isLoading={isLoading} news={data && data.news} />
+        <NewsList type="item" direction="column" isLoading={isLoading} news={data && data.news} />
       </Pagination>
     </section>
   );
