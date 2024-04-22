@@ -6,7 +6,6 @@ import { Categories } from '@/features/caterory';
 import { Search } from '@/features/search';
 import { Slider } from '@/features/slider';
 import { IFilters } from '@/shared/interfaces';
-import { CategoriesType } from '@/entities/category';
 
 interface Props {
   filters: IFilters;
