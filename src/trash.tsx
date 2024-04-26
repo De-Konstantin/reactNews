@@ -32,7 +32,124 @@ const Categories = forwardRef(
               key={category}>
               {category}
             </button>
-          );
+          );  {categories.map((category) => {
+				return (
+				  <button
+					 onClick={() => setSelectedCategory(category)}
+					 className={selectedCategory === category ? styles.active : styles.item}
+					 type="button"
+					 key={category}>
+					 {category}
+				  </button>
+				);  {categories.map((category) => {
+					return (
+					  <button
+						 onClick={() => setSelectedCategory(category)}
+						 className={selectedCategory === category ? styles.active : styles.item}
+						 type="button"
+						 key={category}>
+						 {category}
+					  </button>
+					);  {categories.map((category) => {
+						return (
+						  <button
+							 onClick={() => setSelectedCategory(category)}
+							 className={selectedCategory === category ? styles.active : styles.item}
+							 type="button"
+							 key={category}>
+							 {category}
+						  </button>
+						);  {categories.map((category) => {
+							return (
+							  <button
+								 onClick={() => setSelectedCategory(category)}
+								 className={selectedCategory === category ? styles.active : styles.item}
+								 type="button"
+								 key={category}>
+								 {category}
+							  </button>
+							);  {categories.map((category) => {
+								return (
+								  <button
+									 onClick={() => setSelectedCategory(category)}
+									 className={selectedCategory === category ? styles.active : styles.item}
+									 type="button"
+									 key={category}>
+									 {category}
+								  </button>
+								);  {categories.map((category) => {
+          return (
+            <button
+              onClick={() => setSelectedCategory(category)}
+              className={selectedCategory === category ? styles.active : styles.item}
+              type="button"
+              key={category}>
+              {category}
+            </button>
+          );  {categories.map((category) => {
+				return (
+				  <button
+					 onClick={() => setSelectedCategory(category)}
+					 className={selectedCategory === category ? styles.active : styles.item}
+					 type="button"
+					 key={category}>
+					 {category}
+				  </button>
+				);  {categories.map((category) => {
+					return (
+					  <button
+						 onClick={() => setSelectedCategory(category)}
+						 className={selectedCategory === category ? styles.active : styles.item}
+						 type="button"
+						 key={category}>
+						 {category}
+					  </button>
+					);  {categories.map((category) => {
+						return (
+						  <button
+							 onClick={() => setSelectedCategory(category)}
+							 className={selectedCategory === category ? styles.active : styles.item}
+							 type="button"
+							 key={category}>
+							 {category}
+						  </button>
+						);  {categories.map((category) => {
+							return (
+							  <button
+								 onClick={() => setSelectedCategory(category)}
+								 className={selectedCategory === category ? styles.active : styles.item}
+								 type="button"
+								 key={category}>
+								 {category}
+							  </button>
+							);  {categories.map((category) => {
+								return (
+								  <button
+									 onClick={() => setSelectedCategory(category)}
+									 className={selectedCategory === category ? styles.active : styles.item}
+									 type="button"
+									 key={category}>
+									 {category}
+								  </button>
+								);  {categories.map((category) => {
+									return (
+									  <button
+										 onClick={() => setSelectedCategory(category)}
+										 className={selectedCategory === category ? styles.active : styles.item}
+										 type="button"
+										 key={category}>
+										 {category}
+									  </button>
+									);  {categories.map((category) => {
+										return (
+										  <button
+											 onClick={() => setSelectedCategory(category)}
+											 className={selectedCategory === category ? styles.active : styles.item}
+											 type="button"
+											 key={category}>
+											 {category}
+										  </button>
+										);
         })}
       </div>
     );
