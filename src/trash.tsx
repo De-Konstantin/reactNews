@@ -1222,6 +1222,335 @@ const Categories = forwardRef(
                 type="button"
                 key={category}>
                 {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
+              </button>{' '}
+              <button
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category ? styles.active : styles.item}
+                type="button"
+                key={category}>
+                {category}
               </button>
             </>
           );
