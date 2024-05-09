@@ -10,10 +10,7 @@ interface Props {
 }
 
 const Categories = forwardRef(
-  (
-    { categories, setSelectedCategory, selectedCategory }: Props,
-    ref: ForwardedRef<HTMLDivElement>,
-  ) => {
+  ({ setSelectedCategory, selectedCategory }: Props, ref: ForwardedRef<HTMLDivElement>) => {
     return (
       <div ref={ref} className={styles.categories}>
         <button
@@ -22,18 +19,6 @@ const Categories = forwardRef(
           type="button">
           All
         </button>
-
-        {categories.map((category) => {
-          return (
-            <button
-              onClick={() => setSelectedCategory(category)}
-              className={selectedCategory === category ? styles.active : styles.item}
-              type="button"
-              key={category}>
-              {category}
-            </button>
-          );
-        })}
       </div>
     );
   },
