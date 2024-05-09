@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import BaseLayout from './layouts/BaseLayout';
 import { MainPage } from '@/pages/main';
+import { NewsPage } from '@/pages/news';
 
 export const appRouter = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ export const appRouter = createBrowserRouter([
       },
       {
         path: '/news/:id',
-        element: <div>id</div>,
+        element: <NewsPage />,
       },
     ],
   },
