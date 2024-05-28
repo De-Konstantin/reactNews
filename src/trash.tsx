@@ -1000,6 +1000,500 @@ const Categories = forwardRef(
             type="button">
             All
           </button>
+        </div>{' '}
+        <div ref={ref} className={styles.categories}>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
+          <button
+            onClick={() => setSelectedCategory(null)}
+            className={!selectedCategory ? styles.active : styles.item}
+            type="button">
+            All
+          </button>
         </div>
       </>
     );
