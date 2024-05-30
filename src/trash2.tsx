@@ -506,7 +506,7 @@ const Categories = forwardRef(
             type="button">
             All
           </button>
-        </div>
+        </div>{' '}
         <div ref={ref} className={styles.categories}>
           <button
             onClick={() => setSelectedCategory(null)}
